@@ -30,8 +30,7 @@ export default {
                 .then(res => {
                     return res.json();
                 })
-                .then(json => {
-                    console.log(json);
+                .then(json => {   
                     let cotacao = json[de_para];
                     this.moedaB_value = (cotacao + parseFloat(this.moedaA_value)).toFixed(2);
                 });

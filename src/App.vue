@@ -5,7 +5,10 @@
     <Conversor moedaA="USD" moedaB="BRL"/>
      <Conversor moedaA="BRL" moedaB="USD"/>
     </div>
-   
+    <div class="linha"> 
+    <Conversor moedaA="USD" moedaB="PHP"/>
+    <Conversor moedaA="PHP" moedaB="USD"/>
+    </div>
   </div>
 </template>
 
